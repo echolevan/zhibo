@@ -236,7 +236,8 @@
             </div>
             <div class="right">
                 <div class="title" style="border-bottom: 2px solid transparent">
-                    12小时点击排行 <span class="pull-right" style="color: #999;font-weight: 500;font-size: 14px"><a href="{{route('master.view')}}" target="_blank">查看更多></a></span>
+                    12小时点击排行
+                    <a href="{{route('master.view')}}" target="_blank" class="pull-right" style="color: #999;font-weight: 500;font-size: 14px">查看更多></a>
                 </div>
                 <div class="content">
                     <ul>
