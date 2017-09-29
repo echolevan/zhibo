@@ -1,0 +1,439 @@
+@charset "UTF-8";
+.pd20{ padding:20px;}
+a{ color:#666;}
+input[type=checkbox]{ margin:0px; padding:0px;}
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+a:hover, a:focus {
+   
+    text-decoration: none;
+}
+div{}
+
+/* modal */
+.modal-backdrop{position: absolute;top:0;right:0;bottom:0;left:0;*z-index:-1;_z-index:-1; z-index:5;background-color:#000000;opacity:0.6;filter:alpha(opacity=60);}
+.modal{ display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+   margin:-250px 0 0 -280px;
+    width: 440px;
+    background: #fff;
+    font-family: "Microsoft Yahei";
+	*z-index:110;
+	z-index:10;
+	}
+div #login-modal .modal .in{ height:auto; overflow-y:hidden;*position: absolute; *z-index:1;}
+#login-modal{width: 440px;height:550px; border:1px solid #ddd; box-shadow: 3px 3px 10px rgba(0,0,0,.3); }
+.close{width:20px;
+	height:20px;
+	cursor:pointer;
+	background:url('../images/icons.png') no-repeat -220px -315px;
+	-webkit-transition:all 0.4s ease-out;
+	-moz-transition:all 0.4s ease-out;
+	-o-transition:all 0.4s ease-out;
+	transition:all 0.4s ease-out;
+	margin-top:10px;
+	
+	}
+.close:hover{}
+
+.button-blue{display:block;float:left;padding:5px 0;width:80px;margin-right:10px;color:#fff;background:#407acc;text-align:center;cursor:pointer}
+.button-blue:hover{background:#084b91;text-decoration:none;color:#ffffff}
+
+.button-grey{display:block;float:left;padding:5px 0;width:80px;color:#fff;background:#ccc;text-align:center;cursor:pointer}
+.button-grey:hover{background:#aaa;text-decoration:none}
+
+
+.login-form .form-arrow,.signup-form .form-arrow,.forgot-form .form-arrow{display:block;width:30px;height:15px;background:url(/static/img/arrow.png?2013033000) no-repeat;position:absolute;left:95px;top:-15px}
+.login-form input,.signup-form input,.forgot-form input{padding:9px 9px 9px 9px;margin-bottom:20px;width:94%}
+.login-form .forgot,.login-form .login,.login-form .reg,.signup-form .forgot,.signup-form .login,.signup-form .reg,.forgot-form .forgot,.forgot-form .login,.forgot-form .reg{width:302px;padding:0;margin:0 0 10px 0;height:35px;font-size:18px;cursor:pointer}
+.login-form label.remember,.signup-form label.remember,.forgot-form label.remember{font-size:13px}
+.login-form input[type="checkbox"],.signup-form input[type="checkbox"],.forgot-form input[type="checkbox"]{width:auto;height:auto;padding:0;margin:3px 5px 0 0}
+.login-form a.forgot,.signup-form a.forgot,.forgot-form a.forgot{font-size:13px;float:right;margin-top:2px;width:auto;cursor:pointer}
+.login-form p.error,.signup-form p.error,.forgot-form p.error{font-size:13px;margin-bottom:5px;color:#b22d2d}
+#signup-modal,#forgetform{display:none;width:440px;background:white;margin-left:-190px;border-radius:10px;margin-top:-267px}
+#signup-modal a:hover,#login-modal a:hover,#forgetform a:hover,.modal a:hover{text-decoration:none}
+.modal h1,#forgetform h1,#signup-modal h1,#login-modal h1{margin:0 -40px;background:#EEE;border-bottom:1px solid #CCC;border-top:1px solid #CCC;font-size:16px;padding:13px 40px;border-top-left-radius:6px;border-top-right-radius:6px;text-align:center;margin-bottom:30px}
+.modal .close,#signup-modal .close,#login-modal .close,#forgetform .close{position:absolute;top:0;right:0;padding:12px 18px 16px 18px;height:16px;overflow:hidden;opacity:.8; z-index:1000;}
+.forgot-btn,.login-btn{display:inline-block;*display:inline;*zoom:1;margin-top:14px;color:#ffffff}
+
+.share{text-align:left;overflow:hidden;display:block !important;height:16px !important;line-height:16px !important;padding-left:20px !important;background:url(../img/v2/share.png) no-repeat left;cursor:pointer;float:right}
+.share:hover{opacity:0.8}
+.share.weibo{background-position:0px -96px}
+.share.qq{background-position:0px -64px}
+.share.douban{background-position:0px -560px}
+.share.renren{background-position:0px -160px}
+.third-parties{display:none}
+.login-bind-tp{margin:-5px 0 30px 0}
+.login-bind-tp em{padding:1px 8px}
+.login-bind-tp li{border-radius:5px;margin-bottom:10px;cursor:pointer}
+.login-bind-tp li a{text-align:center;display:block;color:white;padding:12px 30px 12px 0}
+.login-bind-tp .qweibo{background-color:#3671d2;border:1px solid #136ac1;border-radius:3px;margin:10px 0 25px;box-shadow:0 1px 0 rgba(255,255,255,0.25) inset;text-shadow:0 1px 0 #1a64bf;cursor:pointer;text-align:left;background-color:#369ad2}
+.login-bind-tp .qweibo em{background:url(/static/img/tp/qq_logo.png) no-repeat}
+.login-bind-tp .sina{background-color:#b9e6eb;border:1px solid #c12f13;border-radius:3px;margin:10px 0 25px;box-shadow:0 1px 0 rgba(255,255,255,0.25) inset;text-shadow:0 1px 0 #921414;cursor:pointer;text-align:left;background-color:#d6514b}
+.login-bind-tp .sina em{background:url(/static/img/tp/sina_logo.png) no-repeat}
+.login-bind-tp .douban{border:1px solid #54c113;border-radius:3px;margin:10px 0 25px;box-shadow:0 1px 0 rgba(255,255,255,0.25) inset;text-shadow:0 1px 0 #921414;text-align:left;background-color:#41a41a}
+.login-bind-tp .douban em{background:url(/static/img/tp/douban_logo.png) no-repeat}
+
+.loginwrap {
+	width:100%;
+	margin:0 auto
+}
+.loginh {
+	height:40px;
+	margin-top:20px
+}
+.loginh .fl {
+	font-size:30px;
+	line-height:40px;
+	color:#292929
+}
+.loginh .fr {
+	font-size:18px;
+	line-height:50px;
+	color:#707070
+}
+.loginh .fr a {
+	font-size:18px;
+	line-height:50px;
+	color:#FF4200;
+	margin-left:5px
+}
+.loginwrap h3 {
+	font-size:14px;
+	font-weight:500;
+	height:20px;
+	margin-top:15px;
+	color:#292929
+}
+.loginbtn {
+	line-height:70px;
+	color:#6B6A6A
+}
+.logininput input {
+	display:block;
+	width:100%;
+	*width:100%;
+	border:#DAE2E5 1px solid;
+	overflow:hidden;
+	color:#979696;
+	line-height:25px;
+	margin-top:10px;
+	*height:34px;
+	*padding:0px;
+	*line-height:34px;
+	*text-indent:15px;
+	
+}
+.logininput .loginusername {
+	margin-top:15px;
+	margin-bottom:10px
+}
+.loginsubmit input {
+	width:100%;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	background:#ed443c;
+	display:block;
+	text-align:center;
+	font-size:20px;
+	border:none;
+	font-family:'微软雅黑';
+	cursor:pointer
+}
+.loginsubmit button {
+	width:100%;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	background:#ed443c;
+	display:block;
+	text-align:center;
+	font-size:20px;
+	border:none;
+	font-family:'微软雅黑';
+	cursor:pointer
+}
+.loginsubmit {
+	width:100%;
+	height:40px;
+	margin:15px 20px 0 0;
+	position:relative
+}
+.loginsubmiting {
+	height:40px;
+	background:#fff;
+	position:absolute;
+	top:0;
+	left:0;
+	width:130px;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	display:none
+}
+.loginsubmiting_inner {
+	height:40px;
+	background:url('loading.gif') no-repeat 50% 50%;
+	width:130px;
+	position:absolute;
+	top:0;
+	left:0
+}
+.loginpd {
+	border-bottom:1px solid #ecf2f5
+}
+.thirdlogin ul{ margin-left:-6px;}
+.thirdlogin .pd50 {
+	padding-top:30px;
+	padding-bottom:30px
+}
+.thirdlogin h4 {
+	color:#6B6A6A;
+	font-weight:500;
+	margin-bottom:20px;
+	text-indent: 15px;
+}
+.thirdlogin ul li {
+	display:block;
+	float:left;
+	margin-bottom:10px
+}
+.thirdlogin ul li a {
+	display:block;
+	float:left;
+	height:40px;
+	line-height:40px;
+	width:160px;
+	color:#fff;
+	text-indent:60px
+}
+#sinal a {
+	background:#E6162D url('../images/weixin.png') no-repeat 0px -5px;
+}
+#qql a {
+	background:#3eb0d8 url('../images/qq.png') no-repeat 0px -5px;
+	margin-left:30px;
+}
+
+.thirdlogin ul li {
+	margin-left:20px
+}
+.web_login {
+	width:370px;
+	position:relative;
+	margin:auto;
+	border-bottom:#ddd 1px solid;
+}
+#web_login{*left:0;}
+.web_login .login_form {
+	width:100%;
+	margin:0 auto;
+}
+.web_login .reg_form {
+	width:300px;
+	margin:0 auto;
+}
+.web_login .input-tips {
+	float:left;
+	margin-top:10px;
+	width:50px;
+	height:42px;
+	font-size:16px;
+	line-height:42px;
+	font-family:"Hiragino Sans GB", "Microsoft Yahei";
+}
+.web_login .input-tips2 {
+	float:left;
+	text-align:right;
+	padding-right:10px;
+	width:75px;
+	height:30px;
+	font-size:16px;
+	margin-top:10px;
+	clear:both;
+	line-height:30px;
+	font-family:"Hiragino Sans GB", "Microsoft Yahei";
+}
+.web_login .inputOuter {
+	width:200px;
+	height:42px;
+	margin-top:10px;
+	float:left;
+	
+}
+.web_login .inputOuter2 {
+	width:200px;
+	margin-top:6px;margin-top:5px\9;
+	float:left;
+	
+}
+.web_login .inputstyle {
+	width:200px;
+	height:38px;
+	padding-left:5px;
+	line-height:30px;line-height:38px;
+	border:1px solid #D7D7D7;
+	background:#fff;
+	color:#333;border-radius:2px;
+	font-family:Verdana, Tahoma, Arial;
+	font-size:16px;
+	ime-mode:disabled;
+}
+.web_login input.inputstyle2:focus,.web_login input.inputstyle:focus{border:1px solid #198BD4;box-shadow:0 0 2px #198BD4;}
+.web_login .inputstyle2 {
+	width:200px;
+	height:34px;
+	padding-left:5px;
+	line-height:34px;
+	border:1px solid #D7D7D7;
+	background:#fff;
+	color:#333;border-radius:2px;
+	font-family:Verdana, Tahoma, Arial;
+	font-size:16px;
+	ime-mode:disabled;
+}
+.web_login .uinArea {
+	height:55px;
+	position:relative;
+	z-index:10;
+}
+.web_login .pwdArea {
+	height:55px;
+	margin-bottom:10px;
+	position:relative;
+	z-index:3;
+}
+.web_qr_login {
+	position:relative;
+	
+	overflow:hidden;
+}
+
+.cue {
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	border:1px #CCCCCC solid;
+	margin-top:10px;margin-bottom:5px;
+	text-align:center;
+	font-family:"Hiragino Sans GB", "Microsoft Yahei";
+}
+.login {
+	background-color:#ffffff;
+}
+
+h1{margin:80px auto 50px auto;text-align:center;color:#fff;margin-left:-25px;font-size:35px;font-weight: bold;text-shadow: 0px 1px 1px #555;}
+h1 sup{
+    font-size: 18px;
+    font-style: normal;
+    position: absolute;
+    margin-left: 10px;}
+.login {border:0;padding:5px 0;
+background: #fff;
+margin: 0 auto;
+}
+
+.web_login{padding-bottom:20px;}
+
+.jianyi{color:#fff;text-align:center;margin-top:25px;color:#B3B8C4;}
+.reg_form li {
+height: 55px;
+}
+.cue {
+margin-top: 15px;
+margin-bottom: 10px;border:1px solid #eee;border-radius:3px;
+}
+.web_login input.inputstyle2:focus, .web_login input.inputstyle:focus {
+border: 1px solid #5796f;
+box-shadow: 0 0 0;
+}
+.web_login .reg_form {
+width: 300px;
+margin: 0 auto;
+}
+.web_login .inputstyle2 {border-radius:2px;width:210px;}
+.web_login .input-tips2 {
+padding-right: 5px;
+width: 80px;_width: 75px;_font-size:12px;}
+.button_blue
+{
+	display:inline-block;
+	float:left;
+	height:41px;border-radius:4px;
+	background:#2795dc;border:none;cursor:pointer;
+	border-bottom:3px solid #0078b3;*border-bottom:none;
+	color:#fff;
+	font-size:16px;padding:0 10px;*width:140px;
+	text-align:center;outline:none;font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif;
+}
+input.button_blue:hover
+{
+	background:#0081c1;
+	border-bottom:3px solid #006698;*border-bottom:none;
+	color:#fff;
+	text-decoration:none;
+}
+a.zcxy {text-decoration: underline;line-height:58px;margin-left:15px;color: #959ca8;}
+.web_login .login_form {margin-top:30px;}
+.web_login .uinArea {
+height: 60px;}
+.header .switch{left:35px;}
+
+.login {
+	margin:0 auto;
+	width:100%;
+	border-bottom:none;
+	position:relative;
+}
+.header {
+	height:50px;
+	border-bottom:1px solid #e2e2e2;
+	position:relative;
+	font-family:"Microsoft Yahei";
+}
+.header .switch {
+	height:45px;
+	position:absolute;
+	bottom:0;
+	font-size:16px;
+}
+.header .switch #switch_qlogin {
+	margin-right:40px;
+}
+.header .switch .switch_btn {
+	color:#34475e;
+	display:inline-block;
+	height:45px;
+	line-height:45px;
+	outline:none;
+	*hide-focus:expression(this.hideFocus=true);
+}
+.header .switch .switch_btn_focus {
+	color:#34475e;
+	display:inline-block;
+	height:45px;
+	font-weight:bold;
+	line-height:45px;
+	outline:none;
+	*hide-focus:expression(this.hideFocus=true);
+}
+.header .switch .switch_btn:hover {
+	color:#333;
+	text-decoration:none;
+}
+.header .switch .switch_btn_focus:hover {
+	text-decoration:none;
+}
+#switch_bottom {
+	position:absolute;
+	bottom:-1px;_bottom:-2px;
+	border-bottom:2px solid #ed443c;
+}
+.messagge{ width:100%; padding:0px;}
+.messagge input{ width:65%; *text-indent:5px; float:left; margin:0px; border:0px; padding-left:12px;*line-height:34px;*height:34px; background:none;
+ _line-height:25px;}
+.messagge a{ width:32%; color:#11aef1; line-height:32px; font-weight:600; float:right; text-align:center; *line-height:34px;*height:34px;*position:relative;*z-index:1px;*top:10px;}

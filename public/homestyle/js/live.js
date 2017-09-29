@@ -1,0 +1,80 @@
+
+
+
+
+
+	/*底部二维码*/
+
+	$("#giftImg1").hover(function(){
+		$(".tips1").fadeIn(500);
+		$(".tips2,.tips3,.tips4,.tips5,.tips6,.tips7,.tips8,.tips9").fadeOut(0);
+		$(".tips-list").css("z-index",200);
+	},function(){
+		$(".tips1").fadeOut(0);
+		$(".tips-list").css("z-index",50);
+	});
+
+	$("#giftImg2").hover(function(){
+		$(".tips2").fadeIn(500);
+		$(".tips1,.tips3,.tips4,.tips5,.tips6,.tips7,.tips8,.tips9").fadeOut(0);
+		$(".tips-list").css("z-index",200);
+	},function(){
+		$(".tips2").fadeOut(0);
+		$(".tips-list").css("z-index",50);
+	});
+	$("#giftImg3").hover(function(){
+		$(".tips3").fadeIn(500);
+		$(".tips1,.tips2,.tips4,.tips5,.tips6,.tips7,.tips8,.tips9").fadeOut(0);
+		$(".tips-list").css("z-index",200);
+	},function(){
+		$(".tips3").fadeOut(0);
+		$(".tips-list").css("z-index",50);
+	});
+	$("#giftImg4").hover(function(){
+		$(".tips4").fadeIn(500);
+		$(".tips1,.tips2,.tips3,.tips5,.tips6,.tips7,.tips8,.tips9").fadeOut(0);
+		$(".tips-list").css("z-index",200);
+	},function(){
+		$(".tips4").fadeOut(0);
+		$(".tips-list").css("z-index",50);
+	});
+	$("#giftImg5").hover(function(){
+		$(".tips5").fadeIn(500);
+		$(".tips1,.tips2,.tips3,.tips4,.tips6,.tips7,.tips8,.tips9").fadeOut(0);
+		$(".tips-list").css("z-index",200);
+	},function(){
+		$(".tips5").fadeOut(0);
+		$(".tips-list").css("z-index",50);
+	});
+	$("#giftImg6").hover(function(){
+		$(".tips6").fadeIn(500);
+		$(".tips1,.tips2,.tips3,.tips4,.tips5,.tips7,.tips8,.tips9").fadeOut(0);
+		$(".tips-list").css("z-index",200);
+	},function(){
+		$(".tips6").fadeOut(0);
+		$(".tips-list").css("z-index",50);
+	});
+	$("#giftImg7").hover(function(){
+		$(".tips7").fadeIn(500);
+		$(".tips1,.tips2,.tips3,.tips4,.tips5,.tips6,.tips8,.tips9").fadeOut(0);
+		$(".tips-list").css("z-index",200);
+	},function(){
+		$(".tips7").fadeOut(0);
+		$(".tips-list").css("z-index",50);
+	});
+	$("#giftImg8").hover(function(){
+		$(".tips8").fadeIn(500);
+		$(".tips1,.tips2,.tips3,.tips4,.tips5,.tips6,.tips7,.tips9").fadeOut(0);
+		$(".tips-list").css("z-index",200);
+	},function(){
+		$(".tips8").fadeOut(0);
+		$(".tips-list").css("z-index",50);
+	});
+	$("#giftImg9").hover(function(){
+		$(".tips9").fadeIn(500);
+		$(".tips1,.tips2,.tips3,.tips4,.tips5,.tips6,.tips7,.tips8").fadeOut(0);
+		$(".tips-list").css("z-index",200);
+	},function(){
+		$(".tips9").fadeOut(0);
+		$(".tips-list").css("z-index",50);
+	});

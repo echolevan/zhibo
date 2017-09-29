@@ -1,0 +1,1362 @@
+body {
+}
+ul, li {
+	vertical-align:middle;
+}
+* {
+	margin:0px;
+	padding:0px;
+	vertical-align:middle;
+}
+table, thead, tr, th {
+	vertical-align:middle;
+	padding:0px;
+	margin:0px;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	padding:0px;
+	line-height: 1.42857143;
+	vertical-align:middle;
+	border-top: 1px solid #ddd;
+}
+.user {
+	margin-top:30px;
+}
+.user .userleft {
+	width:280px;
+	float:left;
+ *position:relative;
+ *z-index:-1;
+}
+.instructors { width:238px; margin:auto;}
+.instructors h3{ font-size:16px; font-weight:bold;}
+.instructors p{ line-height:30px; color:#666; font-size:14px;}
+.instructors  a{ color:#1e85ef;}
+.lecturer-home-content{width:900px;height:auto;
+   *height:auto;
+   padding-bottom:30px;
+	background:#fff;
+	*position:relative;
+	*z-index:1;
+	}
+.lecturer-home-content .lecturer-home-tab{ width:100%; margin:auto; height:63px; background:#f5f5f5; border:#ebebeb 1px solid; padding:0px;border-bottom:0px;}
+.lecturer-home-content .lecturer-home-tab li{ width:300px; margin-right:-1px; float:left; text-align:center; font-size:18px; font-weight:bold; border-right:#ebebeb 1px solid; line-height:60px; }
+.lecturer-home-content .lecturer-home-tab li a{ width:100%; margin:auto; line-height:60px; padding:0px;border-radius:0px; }
+.lecturer-home-content .lecturer-home-tab li a:hover{color:#666}
+.lecturer-home-content .lecturer-home-tab > li.active > a, .lecturer-home-tab > li.active > a:hover, .lecturer-home-tab > li.active > a:focus{ background:#fff !important; border-top:3px #fe6454 solid !important; margin-top:-3px; color:#fe6454 !important; }
+.lecturer-home-content .lecturer-home-tab li .icon01{ width:23px; height:22px; display:block; position: absolute; background:url(../images/icon01.png) center no-repeat; left:100px; top:20px;}
+.lecturer-home-content .lecturer-home-tab li .icon02{ width:23px; height:22px; display:block;position: absolute;background:url(../images/icon02.png) center no-repeat;left:100px; top:20px;}
+.lecturer-home-content .lecturer-home-tab li .icon03{ width:23px; height:22px; display:block;position: absolute; background:url(../images/icon03.png) center no-repeat;left:80px; top:18px;}
+.lecturer-home-content .lecturer-home-tab > li.active .icon01 { width:23px; height:22px; display:block; position: absolute; background:url(../images/icon001.png) center no-repeat; left:100px; top:20px;}
+.lecturer-home-content .lecturer-home-tab > li.active .icon02 { width:23px; height:22px; display:block; position: absolute; background:url(../images/icon002.png) center no-repeat; left:100px; top:20px;}
+.lecturer-home-content .lecturer-home-tab > li.active .icon03 { width:23px; height:22px; display:block; position: absolute; background:url(../images/icon003.png) center no-repeat; left:80px; top:18px;}
+
+
+.backlive {
+	width:855px;
+	margin:auto;
+	*position:relative;
+}
+.backlive ul{margin-left:-18px;*left:0px;*position:relative;*zoom:1; }
+.backlive ul li {
+	width:200px;
+	height:175px;
+	float:left;
+	background:#fff;
+	margin-top:18px;
+	margin-left:18px;
+	_margin-left:16px;
+	*margin-left:15px;
+	display: inline;
+	border:#ddd 1px solid;
+	
+}
+
+.backlive ul li .liveimg {
+	width:100%;
+	height:121px;
+	margin:auto;
+	position:relative;
+}
+.backlive ul li .liveimg img {
+	width:198px;
+	height:121px;
+	display:block;
+	margin:auto;
+}
+.backlive ul li .liveimg .tagtxt {
+	position: absolute;
+	display:block;
+	background:#df2a20;
+	color:#fff;
+	padding:3px 5px;
+	top:0px;
+	left:0px;
+	text-align:center;
+}
+.backlive ul li .liveimg .tagtxt3 {
+	position: absolute;
+	display:block;
+	background:#df850b;
+	color:#fff;
+	padding:3px 5px;
+	top:0px;
+	left:0px;
+	text-align:center;
+}
+.backlive ul li:hover {
+	width:200px;
+	height:175px;
+	background:#fff;
+	color:#333;
+	white-space:nowrap;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cbcbcb')"; 
+	-moz-box-shadow: 2px 2px #cbcbcb;
+	-webkit-box-shadow: 2px 2px #cbcbcb;
+	box-shadow:2px 2px 10px #cbcbcb;
+	cursor:pointer;
+	*cursor:pointer;
+	_cursor:pointer;
+}
+.backlive ul li .liveimg .tagtxt1 {
+	position: absolute;
+	display:block;
+	background:#425aa4;
+	color:#fff;
+	padding:3px 5px;
+	top:0px;
+	left:0px;
+	text-align:center;
+}
+.backlive ul li .livetxt {
+	width:85%;
+	margin:auto;
+	line-height:20px;
+	padding:5px 0;
+}
+.backlive ul li .livetxt .livetit {
+	font-size:16px;
+	color:#333;
+}
+.backlive ul li .livetxt .livetec {
+	color:#999;
+}
+
+
+
+
+
+
+.user .userleft .usercenter {
+	background:#fff;
+	padding-bottom:15px;
+	height:320px;
+}
+.user .userleft .usercenter .userbg {
+	width:100%;
+	margin:auto;
+	height:250px;
+*vertical-align:middle;
+	background:url(../images/usertop.png) top no-repeat;
+	border-bottom:#ddd 1px solid;
+}
+.user .userleft .usercenter .userbg .userimg {
+	width:127px;
+	height:127px;
+	margin:auto;
+	position:relative;
+	top:20px;
+}
+.user .userleft .usercenter .userbg .userimg .living{ width:93px; height:22px; display:block; background:url(../images/livebg.png) center no-repeat; color:#fff; position:relative; text-align:center;  top: -25px;
+    left: 17px; line-height:18px;}
+.user .userleft .usercenter .userbg .userimg .notlive{ width:93px; height:22px; display:block; background:url(../images/livebg2.png) center no-repeat; color:#fff; position:relative; text-align:center;  top: -25px;
+    left: 17px; line-height:18px;}
+.user .userleft .usercenter .userbg .username {
+	width:100%;
+	text-align:center;
+	line-height:30px;
+}
+.user .userleft .usercenter .userbg .username .centername {
+	font-size:17px;
+	color:#333;
+	text-align:center;
+	margin-top:20px;
+}
+.user .userleft .usercenter .userbg .username .chongzhi {
+	width:170px;
+	margin:auto;
+	color:#ff8b23;
+	height:35px;
+	text-decoration:left;
+*margin-top:3px;
+}
+.user .userleft .usercenter .userbg .username .chongzhi span {
+	width:50%;
+	float:left;
+	text-align:left;
+}
+.user .userleft .usercenter .userbg .username .chongzhi span i {
+	width:24px;
+	height:24px;
+	display:block;
+	float:left;
+	background:url(../images/b.png) left no-repeat;
+	position:relative;
+	top:3px;
+}
+.user .userleft .usercenter .userbg .username .chongzhi .czbtn {
+	width:60px;
+	height:35px;
+	float:left;
+	line-height:35px;
+	margin-left: 15px;
+}
+.user .userleft .usercenter .userbg .username .chongzhi .czbtn a {
+	width:60px;
+	display:block;
+	background:#ff8b23;
+	color:#fff;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	margin-top:3px;
+}
+.user .userleft .usercenter .guanzhu {
+	width:150px;
+	height:70px;
+*height:50px;
+	display:block;
+	margin:auto;
+	padding:10px 0;
+*margin-top:-10px;
+}
+.user .userleft .usercenter .guanzhu ul li {
+	width:65px;
+	float:left;
+	line-height:20px;
+	text-align:center;
+	margin-top:10px;
+	font-size:14px;
+}
+.user .userleft .menulist {
+	width:100%;
+	margin:auto;
+	margin-top:20px;
+	background:#fff;
+	padding:20px 0;
+}
+.user .userleft .menulist ul li {
+	text-align: center;
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+	color:#666;
+}
+.user .userleft .menulist ul li a i {
+	width: 20px;
+	height:20px;
+	position:relative;
+*top:15px;
+	float:left;
+}
+.user .userleft .menulist .on {
+	width:auto;
+	text-align: center;
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+	color:#666;
+	background:#ffeded;
+	border-left:3px solid #fe6454;
+	color:#666;
+}
+.user .userleft .menulist ul li a {
+	color:#666;
+	width: 45%;
+	margin: auto;
+	display:block;
+}
+.user .userleft .menulist ul li:hover {
+	text-align: center;
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+	color:#666;
+	background:#ffeded;
+	border-left:3px solid #fe6454;
+	color:#666;
+}
+.user .userright {
+	width:900px;
+	background:#fff;
+	padding:10px 0;
+	height:auto;
+*height:auto;
+padding-bottom:30px;
+position:relative;
+}
+
+.user .userright h3 {
+	height:50px;
+	line-height:35px;
+	font-size:18px;
+	color:#333;
+	text-indent:20px;
+	border-bottom:#ddd 1px solid;
+	padding:0 20px;
+	font-weight:bold;
+}
+.user .userright .rightcon {
+	width:850px;
+	margin:auto;
+	height:660px;
+	*height:725px;
+}
+.user .userright .rightcon ul li {
+	width:auto;
+	height:70px;
+	line-height:70px;
+*line-height:70px;
+*height:70px;
+	border-bottom:#ddd 1px solid;
+}
+.user .userright .rightcon ul li .myinfo {
+	width:36px;
+	height:36px;
+	display:block;
+	float:left;
+*margin-top:15px;
+}
+.user .userright .rightcon ul li .mytxt {
+	line-height:36px;
+	margin-left:10px;
+	font-size:18px;
+}
+.user .userright .rightcon ul li .mydetail {
+	line-height:36px;
+	margin-left:10px;
+	font-size:14px;
+	color:#999;
+}
+.user .userright .rightbtn {
+	width:100px;
+	height:38px;
+	display:block;
+	line-height:38px;
+	color:#fff;
+	background:#fe6454;
+	font-size:16px;
+	text-align:center;
+	margin-top:15px;
+}
+.user .userright .rightbtn1 {
+	width:100px;
+	height:38px;
+	display:block;
+	line-height:38px;
+	color:#fff;
+	background:#b5b5b5;
+	font-size:16px;
+	text-align:center;
+	margin-top:15px;
+}
+.user .userright .rightbotom {
+	width:204px;
+	height:24px;
+	display:block;
+	position:absolute;
+	background:url(../images/bottomimg.png) center no-repeat;
+	bottom:30px;
+	left:40%;
+}
+.user .userright .rightcon .person {
+	width:600px;
+	margin:auto;
+	margin-top:30px;
+	position:relative;
+}
+.user .userright .rightcon .person .personimg {
+	width:96px;
+	height:96px;
+	display:block;
+	margin:auto;
+}
+.user .userright .rightcon .person .personinput {
+	width:550px;
+	margin:auto;
+	margin-top:30px;
+}
+.user .userright .rightcon .person .personinput .personal {
+	width:320px;
+*width:320px;
+	display:inline;
+	float:left;
+*padding:3px;
+	font-size:14px;
+}
+.user .userright .rightcon .person .personinput .personal:focus {
+	border-color: #ff4436;
+	outline: 0;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075), 0 0 0px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075), 0 0 0px rgba(102, 175, 233, .6);
+}
+.user .userright .rightcon .person .personinput label {
+	width:100px;
+	float:left;
+	font-size:16px;
+	font-weight:400;
+	line-height:34px;
+	text-align:right;
+}
+.user .userright .rightcon .person .personinput .pertext {
+	width:320px;
+*width:320px;
+	display:inline;
+	float:left;
+*height:34px;
+*line-height:34px;
+*padding:3px;
+	font-size:14px;
+}
+.user .userright .rightcon .person .personinput .pertext:focus {
+	border-color: #ff4436;
+	outline: 0;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075), 0 0 0px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075), 0 0 0px rgba(102, 175, 233, .6);
+}
+.user .userright .rightcon .person .personinput .glyphicon-exclamation-sign {
+	color:#ff9802;
+	font-size:16px;
+	line-height:34px;
+	margin-top:2px;
+}
+.user .userright .rightcon .person .personmale {
+	width:550px;
+	margin:auto;
+	margin-top:30px;
+}
+.user .userright .rightcon .person .personmale .sex {
+	width:100px;
+	float:left;
+	font-size:16px;
+	font-weight:400;
+	line-height:34px;
+	text-align:right;
+}
+.user .userright .rightcon .person .male {
+	width:150px;
+	float:left;
+	display:inline;
+	position:relative;
+	top:-3px;
+	line-height:34px;
+}
+.user .userright .rightcon .person .male label {
+	width:60px;
+	height:34px;
+	float:left;
+	display:inline-block;
+	font-weight:400;
+	font-size:16px;
+	color:#666;
+}
+.user .userright .rightcon .person .male .sexmale {
+	position:relative;
+	top:3px;
+}
+.user .userright .rightcon .person .stepbtn1 {
+	width:350px;
+*width:300px;
+	display:inline;
+	float:left;
+*padding:3px;
+*margin-left:110px;
+	margin-left:110px;
+	margin-top:20px;
+}
+.user .userright .rightcon .person .stepbtn1 .btn {
+	margin-left:15px;
+}
+.user .userright .rightcon .person .stepbtn1 .steppink {
+	width:155px;
+*width:110px;
+	float:left;
+	display:block;
+	margin-top:15px;
+	height:40px;
+*height:40px;
+*line-height:25px;
+	background:#ff4436;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	padding:6px 0px;
+	cursor:pointer;
+}
+.user .userright .rightcon .person .stepbtn1 .stepwhite {
+	width:155px;
+*width:110px;
+	float:left;
+	display:block;
+	margin-top:15px;
+	height:40px;
+*height:40px;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	padding:6px 0px;
+	cursor:pointer;
+	color:#666;
+*line-height:25px;
+}
+.user .userright .record {
+	width:840px;
+	margin:auto;
+	margin-top:30px;
+}
+.user .userright .record .money {
+	width:auto;
+margin:;
+}
+.user .userright .record .money .amount {
+	width:250px;
+	float:left;
+	display:block;
+	height:50px;
+	line-height:50px;
+	text-align:left;
+}
+.user .userright .record .money .amount span {
+	color:#ff4436;
+	font-size:25px;
+	font-weight:400;
+	line-height:34px;
+	position:relative;
+	top:-5px;
+	padding:0 2px;
+}
+.user .userright .record .money .transform {
+	width:180px;
+	float:left;
+	display:block;
+	height:50px;
+	line-height:50px;
+	text-align:left;
+	color:#999;
+}
+.user .userright .record .money .recharge {
+	width:120px;
+	height:38px;
+	display:inline-block;
+	float:left;
+}
+.user .userright .record .money .recharge .btnred {
+	width:120px;
+	height:38px;
+	font-size:16px;
+	background:#ff4436;
+	text-align:center;
+	color:#fff;
+	line-height:38px;
+}
+.user .userright .record .recordimg {
+	width:auto;
+}
+.user .userright .record .recording {
+	width: 850px;
+	margin:auto;
+	margin-top:30px;
+}
+.user .userright .record .recording .nav {
+	width:130px;
+	float: right;
+	margin-right:0px;
+}
+.user .userright .record .recording .nav li a {
+	width:60px;
+	height:30px;
+	display:block;
+	padding:0px;
+	text-align:center;
+	line-height:28px;
+	border:#ddd 1px solid;
+}
+.user .userright .record .recording .recordtit {
+	width:150px;
+	float:left;
+	height:50px;
+	line-height: 35px;
+	font-size: 18px;
+	color: #333;
+	text-indent: 20px
+}
+.user .userright .record .recording .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: #fff;
+	cursor: default;
+	background-color: #ff4436;
+	border-bottom-color: transparent;
+	outline:none;
+	border: none;
+}
+.user .userright .record .recording .nav-tabs {
+	border:none;
+}
+.user .userright .record .recording .nav-tabs li a {
+	border-radius:0;
+}
+.user .userright .record .recording .nav-tabs ul li {
+	width:60px;
+	height:30px;
+	display:block;
+	border:#ddd 1px solid;
+	text-align:center;
+	color:#666;
+}
+.user .userright .record .recording table {
+	border:#ddd 1px solid;
+	margin-top:20px;
+}
+.user .userright .record .recording table tr {
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	color:#666;
+}
+.user .userright .record .recording table thead tr {
+	background:#f0f0f0;
+	color:#333;
+}
+.user .userright .record .recording table thead tr th {
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+.user .userright .record .recording table .paid {
+	color:#36c45b
+}
+.user .userright .record .recording table .paidmoney {
+	color:#ff4436;
+s
+}
+.user .userright .record .recording table .closed {
+	color:#666;
+}
+.user .userright .attention {
+	width:840px;
+	margin:auto;
+	margin-top:10px;
+}
+.user .userright .attention ul {
+	margin-left:-15px;
+*margin-left:-15px;
+}
+.user .userright .attention ul li {
+	width:265px;
+	height:125px;
+	display:inline-block;
+	float:left;
+	border:#ddd 1px solid;
+	margin-top:20px;
+	margin-left:15px;
+*margin-left:10px;
+}
+.user .userright .attention ul li .Anchor {
+	width:90%;
+	margin:auto;
+	margin-top:12px;
+	position:relative;
+}
+.user .userright .attention ul li .Anchor .attimg {
+	width:70px;
+	height:70px;
+	display:block;
+	float:left;
+}
+.user .userright .attention ul li .Anchor .attimg .p-txt {
+	padding:2px;
+	font-size:12px;
+	color:#fff;
+	text-align:center;
+	background:#f88d11;
+	position: absolute;
+	left:0px;
+	bottom:-16px;
+*bottom:0px;
+}
+.user .userright .attention ul li .Anchor .atttxt {
+	margin-left:10px;
+	display:inline-block;
+	margin-top:8px;
+ *postion:relative;
+ *left:10px;
+}
+.user .userright .attention ul li .Anchor .atttxt .glyphicon-user:before {
+	color:#6f98b6;
+}
+.user .userright .attention ul li .Anchor .atttxt strong {
+	font-size:18px;
+}
+.user .userright .attention ul li .Anchor .atttxt p {
+	font-size:14px;
+}
+.user .userright .attention ul li .Anchor .cancel {
+	width:65px;
+	height:24px;
+	display:block;
+	background:#f0f0f0;
+	color:#666;
+	line-height:24px;
+	text-align:center;
+	position: absolute;
+	right:0px;
+	top:5px;
+	font-size:12px;
+}
+.user .userright .attention ul li a {
+	color:#666;
+}
+.user .userright .attention ul li:hover {
+	border:#ffb007 1px solid;
+}
+.user .userright .attention ul li .gohome {
+	width:90%;
+	margin:auto;
+	margin-top:20px;
+	position:relative;
+}
+.user .userright .attention ul li .gohome span {
+	float:left;
+}
+.user .userright .attention ul li .gohome .goline {
+	width:72px;
+	height:1px;
+	background:#ddd;
+	float:left;
+	display:inline
+}
+.user .userright .attention ul li .gohome .gotxt {
+	position:relative;
+	top:-10px;
+	padding:0 3px;
+	color:#999;
+}
+.user .userright .Page {
+}
+.user .userright .pagination {
+	width:185px;
+	display:block;
+	margin:auto;
+	height:38px;
+	margin-top:35px;
+}
+.user .userright .pagination ul li {
+	width:34px;
+	float:left;
+	display:inline;
+	height:38px;
+	line-height:38px;
+}
+.user .userright .pagination ul li a {
+	line-height:38px;
+}
+.user .userright .pagination > li > a {
+	width:34px;
+	height:38px;
+	padding:0 3px;
+	float: left;
+	padding:0px;
+	line-height:38px;
+	color: #666;
+	text-align:center;
+}
+.user .userright .pagination > li > a > span {
+	width:34px;
+	height:38px;
+	padding:0 3px;
+	float: left;
+	padding:0px;
+	color: #666;
+	text-align:center;
+	line-height:34px;
+}
+.user .userright .pagination > .active > a, .user .userright .pagination > .active > span, .user .userright .pagination > .active > a:hover, .user .userright .pagination > .active > span:hover, .user .userright .pagination > .active > a:focus, .pagination > .active > span:focus {
+	z-index: 3;
+	color: #ff4436;
+	cursor: pointer;
+	background: none !important;
+	border-bottom:#ff4436 2px solid !important;
+	border:#ddd 1px solid;
+}
+.user .userright .message {
+	width:850px;
+	margin:auto;
+}
+.user .userright .message ul li .mymessage {
+	width:60px;
+	height:50px;
+	display:block;
+	float:left;
+	margin-top:-3px;
+ *margin-top:-3px;
+ margin-left:10px;
+}
+.user .userright .message ul li a{ cursor:pointer;}
+.user .userright .message ul li:hover{ background:#f5f5f5;}
+.user .userright .message ul li .mytxt {
+	line-height:25px;
+	margin-left:10px;
+	font-size:16px;
+	text-align:left;
+	float:left;
+	display:inline;
+ *margin-left:20px;
+ margin-top:10px;
+}
+.user .userright .message ul li .mydetail {
+	line-height:25px;
+	font-size:13px;
+	color:#999;
+}
+.user .userright .message ul li {
+	width:auto;
+	height:70px;
+	line-height:70px;
+*line-height:70px;
+*height:70px;
+	border-bottom:#ddd 1px solid;
+	padding-right:10px;
+}
+.official {
+	width:100%;
+	margin:auto;
+	height: 780px;
+	*height: 835px;
+}
+.official .off-tit {
+	width:100%;
+	margin:auto;
+	height:50px;
+	background:#fff;
+	line-height:50px;
+}
+.official .off-tit .back {
+	color:#999;
+	font-size:18px;
+	line-height:50px;
+	text-align:left;
+	margin-left:10px;
+	position:relative;
+	top:-3px;
+*top:1px;
+}
+.official .off-tit .offname {
+	width:160px;
+	margin:auto;
+	text-align:center;
+	line-height:50px;
+	position:relative;
+}
+.official .off-tit .offname .off-icon {
+	width:40px;
+	height:20px;
+	display:inline-block;
+	background:#ff8a26;
+	text-align:center;
+	color:#fff;
+	line-height:18px;
+}
+.official .off-tit .offname strong {
+	font-size:16px;
+	margin-left:5px;
+	position: relative;
+	top: -1px;
+*top:0px;
+}
+.official .talk_recordbox {
+	min-height: 80px;
+	color: #afafaf;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	margin-top:20px;
+}
+.official .talk_recordbox .user {
+	float: left;
+	display: inline;
+	height: 45px;
+	width: 45px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+}
+.official .talk_recordbox .talk_recordtextbg {
+	float: left;
+	width: 10px;
+	height: 30px;
+	display: block;
+	background-image: url(../images/talk_recordtext.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position:relative;
+	z-index:1px;
+}
+.official .talk_recordbox .talk_recordtext {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	width: 400px;
+	height: auto;
+	display: block;
+	padding:10px;
+	float: left;
+	color: #333333;
+}
+.official .talk_recordboxme {
+	display: block;
+	min-height: 80px;
+	color: #afafaf;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+}
+.official .talk_recordboxme .user {
+	float: right;
+	height: 45px;
+	width: 45px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	display: inline;
+}
+.official .talk_recordboxme .talk_recordtextbg {
+	float: right;
+	width: 10px;
+	height: 30px;
+	display: block;
+	background-image: url(../images/talk_recordtextme.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.official .talk_recordboxme .talk_recordtext {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #d7ebfe;
+	width: 240px;
+	height: auto;
+	padding:10px;
+	color: #666;
+	float: right;
+}
+.official .Sendtime {
+	position: relative;
+	margin: 25px 82px 14px;
+	border-style: dashed;
+	display: block;
+	padding: 0 0 0 20px;
+	border-width: 1px 0 0 0;
+	border-color: #d9d9d9;
+}
+.official .Sendtime span {
+	position: absolute;
+	top: -12px;
+	left: 50%;
+	width: 108px;
+	margin-left: -54px;
+	text-align: center;
+	font-weight: normal;
+	background-color: #f2f2f5;
+}
+.official .send {
+	width:100%;
+	position: absolute;
+	left:0px;
+	bottom:0px;
+	height:110px;
+	background:#fff;
+	border-top:#ddd 1px solid;
+}
+.official .send .sendtext {
+	width:730px;
+	height:auto;
+	line-height:20px;
+	color:#666;
+	font-size:14px;
+	float:left;
+	border:none;
+	outline:none;
+	margin-left:15px;
+	padding:10px 0px;
+	resize: none;
+}
+.official .send .sendicon {
+	width:45px;
+	height:auto;
+	display:inline-block;
+	float:left;
+	margin-top:10px;
+}
+.official .send .sendicon img {
+	width:20px;
+	height:20px;
+	display:block;
+	margin:auto;
+}
+.official .send .sendbtn {
+	width:100px;
+	float:right;
+	height:110px;
+	background:#fe6454;
+	font-size:16px;
+	text-align:center;
+	line-height:110xp;
+	color:#fff;
+}
+.reward_rules {
+	width:auto;
+	margin:auto;
+	line-height:30px;
+	margin-left:15px;
+}
+.links {
+	width:auto;
+	margin:auto;
+	margin-top:30px;
+}
+.links label {
+	width:135px;
+	height:35px;
+	float:left;
+	display:inline-block;
+	line-height:35px;
+	font-size:14px;
+	font-weight:400;
+}
+.links .linkinput {
+	width:425px;
+	float:left;
+	display:inline;
+	background:#f5f5f5;
+	height:35px;
+*padding:0px 5px;
+*line-height:35px;
+}
+.links .linkbtn {
+	width:100px;
+	height:35px;
+	display: inline-block;
+	border:#ff4436 1px solid;
+	color:#ff4436;
+	text-align:center;
+	margin-left:10px;
+	background:#fff;
+}
+.window {
+	width:305px;
+	height:100%;
+	display:block;
+	background:none;
+	margin:auto;
+}
+.window .setmoney {
+	width:100%;
+	margin:auto;
+	position:relative;
+}
+.window .modal-header {
+	border-top:2px #ff8b23 solid;
+	border-radius: 0px;
+}
+.window .modal-content {
+	border-radius:0px;
+*height:220px;
+*border-radius:none;
+}
+.window .modal-footer {
+	border:0px;
+	background:#f2f2f5;
+*height:28px;
+}
+.window .modal-footer .btn-orange {
+	background:#ff8b23;
+	color:#fff;
+	text-align:center;
+}
+.window .modal-footer .f-btn {
+	width:70px;
+	height:35px;
+	display:block;
+	float:left;
+	margin-left:20px;
+	border:#ddd 1px solid;
+}
+.window .modal-title {
+	font-size:14px;
+}
+.window .modal-body {
+	width:80%;
+	margin:auto;
+	margin-top:10px;
+}
+.window .modal-body label {
+	width:40px;
+	float:left;
+}
+.window .modal-body .ff-input {
+	width:100px;
+	height:40px;
+*height:30px;
+	display:inline-block;
+	float:left;
+	margin-right:10px;
+	position:relative;
+	top:-10px;
+}
+.record .modal {
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin: -100px 0 0 -180px;
+	width:305px;
+	background:none;
+	font-family: "Microsoft Yahei";
+	z-index:100;
+	box-shadow:0px;
+}
+.record .close {
+	height:30px;
+	right: 10px;
+	padding:0px;
+	outline:none;
+}
+.release {
+	width:750px;
+	display:block;
+	margin:auto;
+	padding:0px;
+}
+.release h4 {
+	padding:0px;
+	margin:0px;
+	line-height:25px;
+}
+.release .re-person {
+	text-align:left;
+	font-size:14px;
+	line-height:25px;
+	color:#666;
+}
+.release .re-person span {
+	color:#ff4436;
+	position:relative;
+	top:-2px;
+}
+.release .re-txt {
+	width:750px;
+	margin:auto;
+	font-size:14px;
+	color:#999;
+height:60px;
+}
+.relable{ width:110px; display:inline-block; float:left; height:34px; line-height:34px; text-align:right; color:#666; font-size:16px; font-weight:400; margin-top:10px;}
+.respan{ width:550px; float:left; display:inline; text-align:left; line-height:34px; height:34px; margin-top:10px;}
+.respan input{ height:34px; line-height:34px; padding:0 5px;}
+.respan .re-input-txt{ width:450px;*width:430px; float:left; display:inline-block;}
+.rebtn{ width:220px; height:125px; float:left; display:inline; background:#f0f0f0; margin-top:10px;}
+.respan .rebtn-border{ border:#ff4436 1px solid; color:#ff4436; margin-left:20px; background:#fff; padding:5px 25px; position:relative; top:-1px;}
+.btn-orange {
+	background:#ff8b23;
+	color:#fff;
+	text-align:center;
+}
+.btn-orange:hover{ color:#fff;}
+.mt20{ margin-top:30px;}
+.release .re-txt a{ color:#3c92e8;}
+.release .re-txt a:hover{ text-decoration:underline;color:#3c92e8;}
+.release .re-txt p{
+	position:relative;
+overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;}
+.user .userright .message-1 {
+	width:850px;
+	margin:auto;
+	margin-top:15px;
+}
+.user .userright .message-1 .m-left{ width:675px; float:left; *width:650px;}
+.user .userright .message-1 .m-right{ width:155px; float:left; display:inline; margin-top:25px; *margin-right:0px; border:#ddd 1px solid; margin-right:20px;}
+.release-1 {
+	width:550px;
+	display:block;
+	margin:auto;
+	padding:0px;
+}
+.release-1 h4 {
+	padding:0px;
+	margin:0px;
+	line-height:25px;
+}
+.release-1 .re-person {
+	text-align:left;
+	font-size:14px;
+	line-height:25px;
+	color:#666;
+}
+.release-1 .re-person span {
+	color:#ff4436;
+	position:relative;
+	top:-2px;
+}
+.release-1 .re-txt {
+	width:550px;
+	margin:auto;
+	font-size:14px;
+	color:#999;
+height:60px;
+}
+.release-1 .re-txt a{ color:#3c92e8;}
+.release-1 .re-txt a:hover{ text-decoration:underline;color:#3c92e8;}
+.release-1 .re-txt p{
+	position:relative;
+overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;}
+.user .userright .message-1 ul li .mymessage {
+	width:60px;
+	height:50px;
+	display:block;
+	float:left;
+}
+.user .userright .message-1 ul li .mytxt {
+	line-height:25px;
+	margin-left:10px;
+	font-size:16px;
+	text-align:left;
+	float:left;
+	display:inline;
+ *margin-left:20px;
+}
+.user .userright .message-1 .viewtext .postview {
+	width:660px;
+	line-height:25px;
+	margin-left:10px;
+	font-size:16px;
+	text-align:left;
+	float:left;
+	display:inline;
+ *margin-left:20px;
+}
+.user .userright .message-1 .viewtext .postview-1 {
+	width:750px;
+	line-height:25px;
+	margin-left:10px;
+	font-size:16px;
+	text-align:left;
+	float:left;
+	display:inline;
+ *margin-left:20px;
+}
+.user .userright .message-1 .viewtext .postview-1 .viewcon{ width:auto; margin:auto; border:#ddd 1px solid; margin-top:20px;}
+.user .userright .message-1 .viewtext .postview-1 .viewcon textarea{ width:100%; margin:auto; padding:5px;*padding:0px; line-height:25px;}
+.user .userright .message-1 .viewtext .postview-1 .viewimg{ width:100%; margin:auto; height:40px; background:#f0f0f0;}
+.user .userright .message-1 .viewtext .postview-1 .viewimg button{ background:none; margin-top:3px; margin-left:15px;}
+.user .userright .message-1 .viewtext .postview-1 .viewbtn{ margin-top:20px; width:100px; height:35px; background:#ff4436; color:#fff; font-size:16px;}
+.user .userright .message-1 .viewtext .postview-1 .viewtit{ width:480px; *width:420px; height:40px;*height:40px; *line-height:40px; float:left; display:inline-block;}
+.user .userright .message-1 .viewtext .postview-1 .viewnum{ width:160px; height:40px;*height:40px;*line-height:40px;float:left; margin-left:20px;}
+.user .userright .message-1 .viewtext{width:auto;
+	height:auto;
+	line-height:25px;
+*height:auto;
+	margin-top:20px;}
+.user .userright .message-1 .viewtext .mytxt {
+	line-height:25px;
+	margin-left:10px;
+	font-size:16px;
+	text-align:left;
+	float:left;
+	display:inline;
+ *margin-left:20px;
+}
+.user .userright .message-1 .viewtext .mymessage {
+	width:60px;
+	height:50px;
+	display:block;
+	float:left;
+}
+.user .userright .message-1 .viewtext .postview .viewcon{ width:auto; margin:auto; border:#ddd 1px solid; margin-top:20px;}
+.user .userright .message-1 .viewtext .postview .viewcon textarea{ width:100%; margin:auto; padding:5px;*padding:0px; line-height:25px;}
+.user .userright .message-1 .viewtext .postview .viewimg{ width:100%; margin:auto; height:40px; background:#f0f0f0;}
+.user .userright .message-1 .viewtext .postview .viewimg button{ background:none; margin-top:3px; margin-left:15px;}
+.user .userright .message-1 .viewtext .postview .viewbtn{ margin-top:20px; width:100px; height:35px; background:#ff4436; color:#fff; font-size:16px;}
+.user .userright .message-1 .viewtext .postview .viewtit{ width:480px; *width:420px; height:40px;*height:40px; *line-height:40px; float:left; display:inline-block;}
+.user .userright .message-1 .viewtext .postview .viewnum{ width:160px; height:40px;*height:40px;*line-height:40px;float:left; margin-left:20px;}
+.user .userright .message-1 ul li .mytxt .read{ color:#333; font-weight:700;}
+.user .userright .message-1 ul li .mytxt .read span strong{ color:#ea5a43; position:relative; top:-1px;}
+.user .userright .message-1 ul li .mydetail {
+	line-height:25px;
+	font-size:13px;
+	color:#999;
+}
+.user .userright .message-1 ul li {
+	width:auto;
+	height:160px;
+	line-height:25px;
+*height:160px;
+	border-bottom:#ddd 1px solid;
+	margin-top:20px;
+}
+
+.user .relay-content .relay-image{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+
+.user .relay-content .relay-media{
+	padding-top: 20px;
+	padding-left: 65px;
+}
+
+.user .relay-content .relay-message{
+	border: 1px solid #c3a9a9;
+}
+
+.user .relay-content .relay-textarea{
+	width: 100%;
+	height: 80px;
+	resize: none;
+	padding: 10px;
+}
+
+.user .relay-content .relay-sp{
+	border-top: #c3a9a9 1px solid;
+	padding: 2px 4px;
+	font-size: 16px;
+	display: block;
+	text-align: right;
+	color: red;
+}
+
+.user .relay-content .relay-btn{
+	background: lightcoral;
+	color: white;
+	width: 80px;
+	margin-top: 20px;
+	padding: 4px;
+}
+
+.user .relay-content .relay-btn:disabled{
+	background: grey;
+}
