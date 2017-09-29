@@ -30,8 +30,18 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="197" column="132" lean-forward="false" selection-start-line="197" selection-start-column="132" selection-end-line="197" selection-end-column="132" />
+            <state relative-caret-position="618">
+              <caret line="247" column="84" lean-forward="false" selection-start-line="247" selection-start-column="84" selection-end-line="247" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="433edb6f95142d4e299334efba69959ece7f5b32.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/433edb6f95142d4e299334efba69959ece7f5b32.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="244" column="106" lean-forward="false" selection-start-line="244" selection-start-column="104" selection-end-line="244" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -301,12 +311,12 @@
       <workItem from="1506589041051" duration="5964000" />
       <workItem from="1506599254170" duration="315000" />
       <workItem from="1506651459755" duration="15993000" />
-      <workItem from="1506677432452" duration="90000" />
+      <workItem from="1506677432452" duration="213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27036000" />
+    <option name="totallyTimeSpent" value="27159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
@@ -353,13 +363,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/lecturer/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/lecturer/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -693,10 +696,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/433edb6f95142d4e299334efba69959ece7f5b32.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="244" column="106" lean-forward="false" selection-start-line="244" selection-start-column="104" selection-end-line="244" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="197" column="132" lean-forward="false" selection-start-line="197" selection-start-column="132" selection-end-line="197" selection-end-column="132" />
+        <state relative-caret-position="618">
+          <caret line="247" column="84" lean-forward="false" selection-start-line="247" selection-start-column="84" selection-end-line="247" selection-end-column="84" />
           <folding />
         </state>
       </provider>

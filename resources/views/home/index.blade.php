@@ -245,7 +245,7 @@
                                 <a href="{{route('details',$a->id)}}">
                                         <span class="content_title">{{$k + 1}}、{!! $a->title !!}</span>
                                 </a>
-                                <span class="pull-right">{{date('Y.m.d',strtotime($v->ctime))}}</span>
+                                <span class="pull-right">{{date('Y.m.d',strtotime($a->ctime))}}</span>
                                 <div style="clear: both"></div>
                             </li>
                         @endforeach
