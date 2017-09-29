@@ -195,7 +195,7 @@
                         <li>
                             <img src="{{$live->user->thumb}}" class="img-circle" style="width: 100px;height: 100px" alt="">
                             <p>{{$live->user->name}}</p>
-                            <div title="{{$live->user->sign ? : '暂无签名'}}">{{$live->user->sign ? : '暂无签名'}}</div>
+                            <div title="{{$live->user->sign ? $live->user->sign : '暂无签名'}}">{{$live->user->sign ? $live->user->sign  : '暂无签名'}}</div>
                         </li>
                     </a @endif>
                 @endforeach
